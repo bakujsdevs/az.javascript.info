@@ -237,7 +237,7 @@ To declare a constant (unchanging) variable, use `const` instead of `let`:
 const myBirthday = '18.04.1982';
 ```
 
-Variables declared using `const` are called "constants". They cannot be changed. An attempt to do so would cause an error:
+Variables declared using `const` are called "constants". They cannot be reassigned. An attempt to do so would cause an error:
 
 ```js run
 const myBirthday = '18.04.1982';
@@ -290,7 +290,7 @@ In other words, capital-named constants are only used as aliases for "hard-coded
 
 Talking about variables, there's one more extremely important thing.
 
-A variable name should have a clean, obvious meaning, describe the data that it stores.
+A variable name should have a clean, obvious meaning, describing the data that it stores.
 
 Variable naming is one of the most important and complex skills in programming. A quick glance at variable names can reveal which code was written by a beginner versus an experienced developer.
 
